@@ -1,0 +1,101 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+textarea {
+width: 85%;
+height: 600px;
+font-size: 20px;
+font-family: arial;
+}
+
+
+h1.title{
+  color: black;
+  opacity: 0.8;
+  letter-spacing: 6px;
+  text-align: center;
+  font-size: 60px;
+  font-family: arial;
+}
+
+h1{
+  font-size: 55px;
+  font-family: arial;
+}
+
+#title{
+  height: 10vh;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  background-image: url(../../img/app/htpdf/header.jpg);
+  background-size: cover;
+}
+
+#form{
+  background:  url(../../img/overlay/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+p.title-form{
+  color: white;
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-family: arial;
+}
+
+h2.risultato{
+  color: black;
+  text-align: center;
+  font-size: 55px;
+  padding-top: 20px;
+  font-family: arial;
+  letter-spacing: 5px;
+}
+
+a.downpdf{
+  color: black;
+  border: solid 2px black;
+  background: transparent;
+  font-size: 22px;
+  font-family: arial;
+  border-radius: 30px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+a.downpdf:hover{
+  color: white;
+  background-color: green;
+  transition: 0.5s;
+  border: solid 2px green;
+}
+
+#HTMLtoPDF{
+  display: none;
+}
+
+
+input[type="button"]{
+  color: black;
+  border: solid 2px black;
+  background: transparent;
+  font-size: 22px;
+  font-family: arial;
+  border-radius: 30px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+input[type="button"]:hover{
+  color: white;
+  background-color: green;
+  transition: 0.5s;
+  border: solid 2px green;
+}

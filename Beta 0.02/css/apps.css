@@ -1,0 +1,113 @@
+/*
+
+<====================================================>
+                  ADMIN PANNEL CSS
+
+                      V.1.0.1
+<====================================================>
+
+*/
+
+
+html{
+  background-image: url(../img/app/background.jpg);
+}
+
+body{
+        height: 130vh;
+        margin: 0px 400px 0px 400px;
+        background-color: white;
+}
+
+/*NAVBAR */
+
+nav{
+
+  width: 100%;
+  line-height: 60px;
+  background-color: azure;
+  height: 80px;
+
+}
+
+nav ul{
+  float: left;
+  margin: 0;
+  padding-right: 40px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 16px 32px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'arial';
+}
+
+nav ul li a:hover{
+  border-bottom: solid 3px black;
+}
+
+
+img.logo{
+  height: 88px;
+  float: left;
+  margin: 0px 48px; /*16*/
+
+}
+
+nav.black{
+  background: rgba(0, 0, 0, 0.8);
+}
+
+nav.black a{
+  color: white;
+  font-family: 'arial';
+}
+
+nav.black h1.logo{
+  color: white;
+  font-family: 'arial';
+}
+
+nav h1.logo{
+  color: black;
+  text-align: center;
+  margin: 16px;
+  font-family: 'arial';
+}
+
+span{
+  cursor: pointer;
+}
+
+a.nav-link{
+  color: black;
+  font-family: arial;
+  font-size:  20px;
+  text-decoration: none;
+}
+
+input[type="submit"]{
+  border: none;
+  font-size: 20px;
+  font-family: arial;
+  background: transparent;
+  border: solid 1px black;
+  padding: 7px 30px 7px 30px;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: red;
+  transition: 0.5s;
+}
+
+/*END NAVBAR */
